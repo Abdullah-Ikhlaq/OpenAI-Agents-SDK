@@ -2,8 +2,6 @@
 
 This project demonstrates how to use the [OpenAI Agent SDK](https://github.com/openai/agent-sdk) to run a conversational agent powered by Google's **Gemini 2.0 Flash** model.
 
----
-
 ## Description
 
 The agent is configured as a Frontend Expert and uses the Gemini 2.0 Flash model for chat completions. It takes an input prompt and returns a response using the agent SDK infrastructure.
