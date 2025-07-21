@@ -16,15 +16,12 @@ The agent is configured as a Frontend Expert and uses the Gemini 2.0 Flash model
 - Defines and runs a frontend expert agent.
 - Provides a synchronous execution flow with `Runner.run_sync()`.
 
----
-
 ## Project Structure
 
 ```bash
 ├── main.py             # Main script to run the agent
 ├── .env                # Environment file (contains your Gemin
 ```
----
 
 ## Requirements
 
@@ -36,8 +33,6 @@ Install dependencies:
 ```bash
 pip install openai-agents python-dotenv
 ```
-
----
 
 ## Setup
 
@@ -51,8 +46,6 @@ GEMINI_API_KEY=your_gemini_api_key_here
 python main.py
 ```
 
----
-
 ## How It Works
 
 1. Loads the Gemini API key from .env.
@@ -61,8 +54,7 @@ python main.py
 4. Uses RunConfig to define execution behavior.
 5. Creates an Agent named Frontend Expert.
 6. Sends a test message and prints the response.
-
---- 
+ 
 
 ## Usage
 
@@ -75,8 +67,6 @@ python main.py
 ```bash
 Hello! I'm here to help you with frontend development. How can I assist you today?
 ```
-
----
 
 ## Notes
 
